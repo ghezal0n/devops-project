@@ -52,14 +52,14 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
-<!-- Deploy to Nexus -->
-    <distributionManagement>
-      <repository>
+         
+<distributionManagement>
+    <repository>
         <id>deploymentRepo</id>
         <name>Nexus Repository</name>
         <url>http://localhost:8081/repository/maven-releases/</url>
-      </repository>
-    </distributionManagement>
+    </repository>
+</distributionManagement>
 
     <build>
         <plugins>
