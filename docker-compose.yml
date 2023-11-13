@@ -15,7 +15,7 @@ services:
       - db:/var/lib/mysql
 
   backend:
-    image: benjeddou_rafed_5arctic6-backend:latest
+    image: ghezal0n/devops-project:latest
     container_name: backend
     ports:
       - "8089:8089"
